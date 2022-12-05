@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+body{
+    font-family: 'Kanit', sans-serif;
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titre{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    margin: 10vh;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+    
+}
+
+.albums{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.ens-albm{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.albums:hover{
+    opacity: 50%;
+    width: 350px;
+    height: 350px;
+    transition: 0.5s;
+}
+
+.albums:target{
+    opacity: 0;
+}
+
+.active{
+    border-radius: 100px;
+	opacity: 1;
+	color:#ffffff ;
+	padding: 10px;
+	background-color: #8c5ae9;
+}
