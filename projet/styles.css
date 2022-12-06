@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 #mainnav{
     color: red;
     
@@ -8,8 +9,14 @@
 }
 a{
     text-decoration: none;
-    color: ;
+    color: black;
+
 }
-h1.titre{
-    font-family: Rubik;
+
+.imgart:hover{
+    opacity: 50%;
+}
+.titre{
+    font-family: 'Rubik', sans-serif;
+
 }

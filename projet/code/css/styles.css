@@ -17,12 +17,29 @@
 }
 a{
     text-decoration: none;
+    transition: 0.5s;
 }
 #damso{
     display: none;
 }
 #damso:target{
     display: block;
+    font-size: 20px;
+}
+#PNL{
+    display: none;
+}
+#PNL:target{
+    display: block;
+    font-size: 20px;
+    
+}
+#nekfeu{
+    display: none;
+}
+#nekfeu:target{
+    display: block;
+    font-size: 20px;
 }
 .mainnava{
 }
@@ -31,12 +48,16 @@ a{
     width: 400px;
     height: 400px;
     transition: 0.5s;
+    padding:  5px;
+    border-radius: 25px;
 }
 .imgart:hover{
     transition: 0.5s;
     opacity: 90%;
     width: 450px;
     height: 450px;
+    box-shadow: 5px 10px 30px black;
+    border-radius: 25px;
     
     
 }
@@ -66,9 +87,14 @@ body{
 }
 header{
     font-family: 'Kanit', sans-serif;
- 
+    
+
 }
 
 img{
     border-radius: 20px;
+}
+a:hover{
+    color: grey;
+    transition: 0.5s;
 }
