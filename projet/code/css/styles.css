@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kanit:wght@200&family=Rubik:wght@500&display=swap');
+#mainnav{
+    color: red;
+    
+}
+#ulmain{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.mainnava{
+    text-decoration: none;
+    color: black;
+
+}
+a{
+    text-decoration: none;
+}
+#damso{
+    display: none;
+}
+#damso:target{
+    display: block;
+}
+.mainnava{
+}
+
+.imgart{
+    width: 400px;
+    height: 400px;
+    transition: 0.5s;
+}
+.imgart:hover{
+    transition: 0.5s;
+    opacity: 90%;
+    width: 450px;
+    height: 450px;
+    
+    
+}
+.mainnava:active{
+    color: red;
+}
+.titres{
+    width: 100vw;
+    text-align: center;
+    border: 10px;
+    
+}
+.paras{
+    width: 100vw;
+    text-align: center;
+}
+#imagesrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+body{
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    font-family: 'Kanit', sans-serif;
+ 
+}
+
+img{
+    border-radius: 20px;
+}
