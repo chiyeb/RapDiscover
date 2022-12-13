@@ -28,6 +28,10 @@
     color: #8c5ae9;
     padding: 10px;
 }
+a:hover{
+    color: #8c5ae9; 
+    background:none;
+}
 a{
     text-decoration: none;
     transition: 0.5s;
@@ -126,10 +130,6 @@ header{
 
 img{
     border-radius: 20px;
-}
-a:hover{
-    color: grey;
-    transition: 0.5s;
 }
 *{
     cursor: url('../../img/cursor.png'), auto;
