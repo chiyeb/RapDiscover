@@ -5,6 +5,13 @@
     color: red;
     
 }
+.active{
+    border-radius: 100px;
+    opacity: 1;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #8c5ae9;
+}
 #ulmain{
     list-style: none;
     display: flex;
@@ -15,47 +22,69 @@
     color: black;
 
 }
+.mainnava:hover{
+    border-radius: 100px;
+    opacity: 1;
+    color: #8c5ae9;
+    padding: 10px;
+}
 a{
     text-decoration: none;
     transition: 0.5s;
 }
+
+#presentationrappeur{
+    margin-top: 5vh;
+}
 #damso{
     display: none;
+    transition-property: height, width, background-color,;
+    transition-duration: .2s;
+    transition-timing-function:ease-out;
 }
 #damso:target{
     display: block;
-    font-size: 20px;
+    text-align: center;
 }
 #PNL{
     display: none;
+    transition-property: height, width, background-color,;
+    transition-duration: .2s;
+    transition-timing-function:ease-out;
 }
 #PNL:target{
     display: block;
-    font-size: 20px;
-    
+    text-align: center;
+    transition-property: height, width, background-,;
+    transition-duration: .2s;
+    transition-timing-function:ease-out;
 }
 #nekfeu{
     display: none;
+    transition-property: height, width, background-color,;
+    transition-duration: .2s;
+    transition-timing-function:ease-out;
 }
 #nekfeu:target{
     display: block;
-    font-size: 20px;
+    text-align: center;
 }
 .mainnava{
 }
 
 .imgart{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     transition: 0.5s;
     padding:  5px;
     border-radius: 25px;
+    margin-top: 2vh;
 }
 .imgart:hover{
     transition: 0.5s;
     opacity: 90%;
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     box-shadow: 5px 10px 30px black;
     border-radius: 25px;
     
@@ -65,14 +94,17 @@ a{
     color: red;
 }
 .titres{
+    margin-top: 3vh;
     width: 100vw;
     text-align: center;
     border: 10px;
+    
     
 }
 .paras{
     width: 100vw;
     text-align: center;
+    margin-top: 1vh;
 }
 #imagesrap{
     display: flex;
@@ -84,6 +116,7 @@ a{
 }
 body{
     font-family: 'Kanit', sans-serif;
+    background-image: url(../../img/background.jpg);
 }
 header{
     font-family: 'Kanit', sans-serif;
@@ -97,4 +130,11 @@ img{
 a:hover{
     color: grey;
     transition: 0.5s;
+}
+*{
+    cursor: url('../../img/cursor.png'), auto;
+}
+/*page a propos*/
+#Apropos{
+    text-align: center;
 }
