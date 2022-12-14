@@ -94,9 +94,6 @@ a{
     
     
 }
-.mainnava:active{
-    color: red;
-}
 .titres{
     margin-top: 3vh;
     width: 100vw;
@@ -131,10 +128,54 @@ header{
 img{
     border-radius: 20px;
 }
-*{
+/* *{
     cursor: url('../../img/cursor.png'), auto;
-}
+} */
 /*page a propos*/
 #Apropos{
     text-align: center;
+}
+.logosimg{
+    width: 100px;
+    transition: 0.5s;
+}
+.logosimg:hover{
+    box-shadow: 5px 5px 40px black;
+    display: block;
+}
+#test{
+    display: none;
+}
+#logos{
+    display: flex;
+    justify-content: center;
+
+}
+#affichsources{
+    text-decoration: none;
+    color: black;
+}
+#affichsources:hover{
+    transition: 0.5s;
+    color: #8c5ae9;
+}
+#source{
+    text-align: center;
+}
+#sources{
+    display: none;
+    transition: 0.5s;
+}
+#sources:target{
+    display: block;
+}
+.sourcesli{
+
+}
+#lienproj{
+    text-align: center;
+}
+#logos a{
+    text-decoration: none;
+    color: black;
 }
