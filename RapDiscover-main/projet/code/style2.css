@@ -5,6 +5,7 @@ body{
     background-image: url("../img/back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 #titre{
@@ -35,6 +36,8 @@ li{
     height: 300px;
     border-radius: 20px;
     transition: 0.5s;
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 255, .2);
+    border: 5px solid white;
 }
 
 .ens-albm{
@@ -50,9 +53,36 @@ li{
     height: 350px;
     transition: 0.5s;
 }
+#nek{
+    display: none;
+    transition-duration: 1s;
+    text-align:center;
+}
 
-.albums:target{
-    opacity: 0;
+#nek:target{
+    display: block;
+    transition-duration: 1s;
+    text-align: center;
+}
+
+#dam{
+    display: none;
+    text-align: center;
+}
+
+#dam:target{
+    display: block;
+    text-align: center;
+}
+
+#pnl{
+    display: none;
+    text-align: center;
+}
+
+#pnl:target{
+    display: block;
+    text-align: center;
 }
 
 .active{
@@ -61,4 +91,48 @@ li{
 	color:#ffffff ;
 	padding: 10px;
 	background-color: #8c5ae9;
+}
+
+.albm-text{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+
+.oui{
+    font-size: 20px;
+    color:blue ;
+    transition: 0.5s;
+    width: 10vw;
+}
+.oui:hover{
+    font-size: 40px;
+    transition: 0.5s;
+    background-color: #8c5ae9;
+    border-radius: 50px;
+    text-align: center;
+    color: #8c5ae9;
+}
+
+.formu{
+    text-align: center;
+
+}
+
+.title{
+    text-align: center;
+    margin: 10vh;
+}
+input{
+    margin: 3vh;
+}
+.mes-input{
+    margin-top:5vh ;
+    width:20vw ;
+    height: 15vh;
+}
+
+.text-avis{
+    text-align: center;
+    margin: 7vh;
 }
