@@ -143,7 +143,6 @@ img{
 /*page a propos*/
 #Apropos{
     text-align: center;
-    margin: 10vh;
 }
 .logosimg{
     width: 100px;
@@ -166,7 +165,6 @@ img{
 #affichsources{
     text-decoration: none;
     color: black;
-    text-decoration: underline;
 }
 #affichsources:hover{
     transition: 0.5s;
@@ -187,8 +185,4 @@ img{
 #logos a{
     text-decoration: none;
     color: black;
-}
-
-#source ul li{
-    list-style: none;
 }
