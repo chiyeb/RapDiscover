@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kanit:wght@200&family=Rubik:wght@500&display=swap');
+#mainnav{
+    color: red;
+    
+}
+.active{
+    border-radius: 100px;
+    opacity: 1;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #8c5ae9;
+}
+#ulmain{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.mainnava{
+    text-decoration: none;
+    color: black;
+}
+.artistemain{
+    margin-bottom: 8vh;
+}
+.presentation{
+    margin-top:8vh ;
+}
+.mainnava:hover{
+    border-radius: 100px;
+    opacity: 1;
+    color: #8c5ae9;
+}
+a:hover{
+    color: #8c5ae9; 
+    background:none;
+}
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#presentationrappeur{
+    margin-top: 5vh;
+}
+#damso{
+    display: none;
+    transition-property: height, width, background-color,;
+    transition-duration: .2s;
+    transition-timing-function:ease-out;
+}
+#damso:target{
+    display: block;
+    text-align: center;
+}
+#PNL{
+    display: none;
+    transition-property: height, width, background-color,;
+    transition-duration: .2s;
+    transition-timing-function:ease-out;
+}
+#PNL:target{
+    display: block;
+    text-align: center;
+    transition-property: height, width, background-,;
+    transition-duration: .2s;
+    transition-timing-function:ease-out;
+}
+*{
+    cursor: url("../../img/cursor.png"), auto;
+}
+a:hover{
+    cursor: pointer;
+}
+#nekfeu{
+    display: none;
+    transition-property: height, width, background-color,;
+    transition-duration: .2s;
+    transition-timing-function:ease-out;
+}
+#nekfeu:target{
+    display: block;
+    text-align: center;
+}
+.imgart{
+    width: 300px;
+    height: 300px;
+    transition: 0.5s;
+    padding:  5px;
+    border-radius: 25px;
+    margin-top: 2vh;
+}
+.imgart:hover{
+    transition: 0.5s;
+    opacity: 90%;
+    width: 350px;
+    height: 350px;
+    box-shadow: 5px 10px 30px black;
+    border-radius: 25px;
+    cursor: pointer;
+    
+    
+}
+.titres{
+    margin-top: 3vh;
+    width: 100vw;
+    text-align: center;
+    border: 10px;
+    
+    
+}
+.paras{
+    width: 100vw;
+    text-align: center;
+    margin-top: 1vh;
+}
+#imagesrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    background-image: url(../../img/background.jpg);
+}
+header{
+    font-family: 'Kanit', sans-serif;
+    
+
+}
+
+img{
+    border-radius: 20px;
+}
+
+/*page a propos*/
+
+#Apropos{
+    text-align: center;
+    margin: 10vh;
+}
+.logosimg{
+    width: 100px;
+    transition: 0.5s;
+    margin-left: 30px;
+}
+.logosimg:hover{
+    box-shadow: 5px 5px 40px #8c5ae9;
+    display: block;
+    cursor: pointer;
+}
+#test{
+    display: none;
+}
+#logos{
+    display: flex;
+    justify-content: center;
+
+}
+#affichsources{
+    text-decoration: none;
+    color: black;
+}
+#affichsources:hover{
+    transition: 0.5s;
+    color: #8c5ae9;
+}
+#source{
+    text-align: center;
+}
+#sources{
+    display: none;
+}
+#sources:target{
+    display: block;
+}
+#lienproj{
+    text-align: center;
+}
+#logos a{
+    text-decoration: none;
+    color: black;
+}
+
+#source ul li{
+    list-style: none;
+}
+#sources ul li a{
+    text-decoration: none;
+    color: black;
+}
+#sources ul li a:hover{
+    color: #8c5ae9;
+    transition: 0.5s;
+}
+#sources{
+    text-align: center;
+}
