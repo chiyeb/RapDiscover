@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Kanit', sans-serif;
-    background-image: url("../../img/background.jpg");
+    background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -145,7 +145,7 @@ a:hover{
     cursor: pointer;
 }
 *{
-    cursor: url('../../img/cursor.png'), auto;
+    cursor: url('../img/cursor.png'), auto;
 }
 .par{
     text-align: center;
