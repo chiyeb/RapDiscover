@@ -68,7 +68,7 @@ a{
     transition-timing-function:ease-out;
 }
 *{
-    cursor: url("../img/cursor.png"), auto;
+    cursor: url("./../img/cursor.png"), auto;
 }
 a:hover{
     cursor: pointer;
@@ -125,7 +125,7 @@ a:hover{
 }
 body{
     font-family: 'Kanit', sans-serif;
-    background-image: url(../img/background.jpg);
+    background-image: url(./../img/background.jpg);
 }
 header{
     font-family: 'Kanit', sans-serif;
